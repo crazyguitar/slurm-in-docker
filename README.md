@@ -1,5 +1,7 @@
 # Slurm in Docker
 
+[![Build Status](https://travis-ci.org/crazyguitar/slurm-in-docker.svg?branch=19.05.1)](https://travis-ci.org/crazyguitar/slurm-in-docker)
+
 **WORK IN PROGRESS**
 
 Use [Docker](https://www.docker.com/) to explore the various components of [Slurm](https://www.schedmd.com/index.php)
