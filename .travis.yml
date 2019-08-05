@@ -1,0 +1,14 @@
+services:
+  - docker
+
+addons:
+  apt:
+    packages:
+      - docker-ce
+
+before_install:
+  - make clean
+  - make build
+
+script:
+  - echo "run tests"
