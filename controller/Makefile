@@ -2,7 +2,7 @@
 SLURM_VERSION = 19.05.1
 IMAGE = scidas/slurm.controller
 
-.PHONY: all build clean
+.PHONY: all build clean test
 
 
 all: build

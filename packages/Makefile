@@ -1,6 +1,6 @@
 subdir = centos-7
 
-.PHONY: all build clean $(subdir)
+.PHONY: all build clean test $(subdir)
 
 all: build
 

@@ -4,7 +4,7 @@ IMAGE = scidas/slurm.base
 
 DIR := $(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
 
-.PHONY: all build clean
+.PHONY: all build clean test
 
 all: build
 
