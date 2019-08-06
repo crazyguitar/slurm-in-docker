@@ -6,9 +6,11 @@ addons:
     packages:
       - docker-ce
 
-before_install:
+before_script:
+  - sudo apt-get install shellcheck
   - make clean
   - make build
 
 script:
-  - echo "run tests"
+  - shellcheck test/test.sh
+  - make test
