@@ -1,14 +1,17 @@
 services:
   - docker
 
-os:
-  - linux
-  - osx
-
 addons:
   apt:
     packages:
       - docker-ce
+
+matrix:
+  include:
+    - os: linux
+      dist: xenial
+    - os: linux
+      dist: bionic
 
 before_script:
   - sudo apt-get install shellcheck
