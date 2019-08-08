@@ -13,4 +13,4 @@ before_script:
 
 script:
   - shellcheck test/test.sh
-  - make test
+  - sudo make test
